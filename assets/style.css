@@ -1,0 +1,116 @@
+body,html {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: #cfd0d1;
+    font-weight: 200;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #36393f;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    z-index: 100;
+    font-size: 3.25em;
+}
+
+.soon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 100;
+    font-size: 3.5em;
+}
+
+.tittle-soon {
+    font-weight: bold;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.fa-facebook {
+    position: absolute;
+    bottom: 0.9%;
+    right: 2%;
+    z-index: 100;
+    font-size: 3.25em;
+    text-decoration: none;
+    color: #cfd0d1;
+}
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.highlight {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.highlight:hover{
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.icon-sound:hover {
+    text-decoration: none; 
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.media-link:hover {
+    text-decoration: none;
+    background: -moz-linear-gradient(top, red, yellow, green 100%);
+    background: -webkit-linear-gradient(top, red, yellow, green 100%);
+    background: linear-gradient(to bottom, red, yellow, green 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    display: inline-block; 
+    transition: 0.75s;
+    font-size: 65px;
+}
+
+.media-link {
+    text-decoration: none;
+    background: -moz-linear-gradient(top, red, yellow, green 100%);
+    background: -webkit-linear-gradient(top, red, yellow, green 100%);
+    background: linear-gradient(to bottom, red, yellow, green 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    display: inline-block; 
+    transition: 0.75s;
+}
+
