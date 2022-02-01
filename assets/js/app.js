@@ -53,3 +53,12 @@ particlesJS('particles-js', {
     },
     'retina_detect': true
   });
+
+  setInterval(function(){
+    
+    var toggle = $(".text").hasClass("toggled");
+     $(".text_1").animate({opacity: toggle ? 1 : 0});
+     $(".text_2").animate({opacity: toggle ? 0 : 1});
+     $(".text").toggleClass("toggled");
+ 
+ }, 1000);
